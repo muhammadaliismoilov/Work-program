@@ -1,0 +1,86 @@
+.form{
+
+    .span{
+        margin-top: 48px;
+        background: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        max-width: 1110px;
+    }
+    &--container{
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__heading{
+        margin: 0;
+        font-family: 'Ibarra Real Nova';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        color: #33323D;
+        flex-shrink: 1;
+    }
+
+    &__list{
+        width: 635px;
+
+    }
+    &__label{
+        font-family: 'Public Sans';
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 30px;
+        color: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    &__label + &__label{
+        margin-top: 24px;
+    }
+
+    &__input{
+        padding: 9px 0;
+        padding-left: 15px;
+        width: 100%;
+        // background: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 30px;
+        /* identical to box height, or 231% */
+
+
+        color: #33323D;
+
+        mix-blend-mode: normal;
+        opacity: 0.4;
+
+    }
+    &__button{
+        color: #fff;
+        background: #203A4C;
+        border: none;
+        margin-top: 24px;
+    }
+}
+@media only screen and (max-width:880px) {
+
+    .form{
+
+        &--container{
+
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+    }
+
+
+}
